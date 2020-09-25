@@ -6,7 +6,7 @@ import sys
 os.system("clear")
 
 print('''\033[91m
- .----------------------------------------------------------------------.
+.----------------------------------------------------------------------.
   |_.-._.-._.-._.-._.-._.-.    _.-._.-._.-.    _.-._.-._.-._.-._.-._.-._.|
   |_.-._.-._.-._.-._.-._. .::db .-._.-._. .::db .-._.-._.-._.-._.-._.-._.|
   |_.-._.-._.-._.-._.-._ .::d88b -._.-._ .::d88b -._.-._.-._.-._.-._.-._.|
@@ -36,8 +36,7 @@ print('''\033[91m
   |_.-._.-._.-._.-._.-._. \  Y8888P .-._. \  Y8888P .-._.-._.-._.-._.-._.|
   |_.-._.-._.-._.-._.-._.- \  Y88P _.-._.- \  Y88P _.-._.-._.-._.-._.-._.|
   |_.-._.-._.-._.-._.-._.-. \__YP ._.-._.-. \__YP ._.-._.-._.-._.-._.-._.|
-  `----------------------------------------------------------------------'
-
+  `----------------------------------------------------------------------'|
 ''')
 def slowprint(s):
     for c in s + '\n' :
@@ -49,7 +48,7 @@ print (''' \033[95m
 +--------------------------------------+
 | This Tool Install All Basic Packages |
 +--------------------------------------+
-| Coded By Nitro Hacker|version : 2.5  |
+| Coded By Nitro Hacker|version : 2.3  |
 +--------------------------------------+''')
 
 slowprint(''' \033[93m
@@ -76,30 +75,7 @@ slowprint(''' \033[93m
 [21] host
 [22] dnsutils
 [23] coreutils
-[24] wireshark
-[25] wcalc
-[26] bmon
-[27] vpn
-[29] unrar
-[30] toilet
-[31] proot
-[32] net-tools
-[33] golang
-[34] chroot
-[35] cmarix
-[36] host
-[37] havij
-[38] figlet
-[39] cowsay
-[40] zip
-[41] unzip
-[42] tor
-[43] google
-[44] lolcat
-[45] fish
-[45] help
-[46] tar
-[47] vim''')
+[24] fish''')
 slowprint('''\033[96m
 This Command for access Storage in Termux
 [00] termux-setup-storage''')
@@ -107,7 +83,7 @@ print ("                                            ")
 choice = input("\033[93mDo You Want to Install All Packages [y/n] : ")
 if choice == 'n' : sys.exit()
 if choice == 'y' : os.system ("apt update")
-os.system ("atp upgrade -y")
+os.system ("apt upgrade -y")
 os.system ("apt install python -y")
 os.system ("apt install python2 -y")
 os.system ("apt install php -y")
@@ -129,29 +105,6 @@ os.system ("apt install clang -y")
 os.system ("apt install nmap -y")
 os.system ("apt install w3m -y")
 os.system ("apt install hydra -y")
-os.system ("apt install wireshark -y")
-os.system ("apt install wcalc -y")
-os.system ("apt install bmon -y")
-os.system ("apt install vpn -y")
-os.system ("apt install unrar -y")
-os.system ("apt install toilet -y")
-os.system ("apt install proot -y")
-os.system ("apt install net-tools -y")
-os.system ("apt install golang -y")
-os.system ("apt install chroot -y")
-
-os.system ("apt install cmatrix -y")
-os.system ("apt install host -y")
-os.system ("apt install havij -y")
-os.system ("apt install figlet -y")
-os.system ("apt install tar -y")
-os.system ("apt install zip -y")
-os.system ("apt install unzip -y")
-os.system ("apt install tor -y")
-os.system ("apt install google -y")
-os.system ("apt install lolcat -y")
-os.system ("apt install fish -y")
-os.system ("apt install vim -y")
 
 
 print ("""
@@ -162,6 +115,7 @@ os.system ("apt install macchanger -y")
 os.system ("apt install host -y")
 os.system ("apt install dnsutils -y")
 os.system ("apt install coreutils -y")
+os.system ("apt install fish -y")
 
 print ("Allow the Button For Access the Storage in Termux")
 
