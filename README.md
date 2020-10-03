@@ -67,7 +67,7 @@ This will take too much time it's depends on your data connection.
 
 https://www.youtube.com/channel/UCv80Btv_4kn_9b-GVgPIwMg
 
-### PRACTICA VIDEO
+### PRACTICAL VIDEO
 https://youtu.be/NhdmZMhdduA
 
 For Hacking Videos Subscribe
