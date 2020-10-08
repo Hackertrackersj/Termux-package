@@ -121,7 +121,17 @@ print ("Allow the Button For Access the Storage in Termux")
 
 
 os.system ("termux-setup-storage")
+  "\e[92m Do you wish to see a practical video on it (y/n)? \e[m "
 
+read answer
+ 
+  if [ "$answer" != "${answer#[Yy]}" ] ;then
+       
+       am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCv80Btv_4kn_9b-GVgPIwMg >> /dev/null 2>&1
+  
+else
+  
+ fi
 def slowprint(s):
     for c in s + '\n' :
         sys.stdout.write(c)
@@ -132,18 +142,6 @@ slowprint('''\033[95m|             Welcome To NITRO HACKER           |
 |           Subscribe Our YouTube Channel         |
 | Watch Ours Tutorials For Learn Ethical Hacking  |''')
 print("+-------------------------------------------------+")
-echo -en "\e[92m Do you wish to see a practical video on it (y/n)? \e[m "
 
-read answer
- 
-  if [ "$answer" != "${answer#[Yy]}" ] ;then
-       
-       am start -a android.intent.action.VIEW -d https://www.youtube.com/channel/UCv80Btv_4kn_9b-GVgPIwMg >> /dev/null 2>&1
-  
-else
-	
-     echo
-  
- fi
 
 input("\n\nPress the enter key to exit : ")
