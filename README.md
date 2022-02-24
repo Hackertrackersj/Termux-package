@@ -65,12 +65,12 @@ This will take too much time it's depends on your data connection.
 
 ### Visit on YouTube Channel
 
-https://www.youtube.com/channel/UCv80Btv_4kn_9b-GVgPIwMg
+https://www.youtube.com/c/NitroHacker
 
 ### PRACTICAL VIDEO
-https://youtu.be/NhdmZMhdduA
+https://youtu.be/ibdMHfYzZNM
 
 For Hacking Videos Subscribe
 
 ### My Website
-http://nitro-hacker.ml
+https://official-nitrohacker.blogspot.com/
